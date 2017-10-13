@@ -115,6 +115,17 @@ describe('utils',function(){
       (ro === undefined).should.equal(true);
     }); // end of it
 
+    it('should use an options compare', function() {
+      let lo = {a: 1, b: {z: 0, x: {y: 1}}};
+      let ro = {a: 1, b: {z: 0, x: {y: '1'}}};
+      let d = utils.getDiffs(lo, ro);
+      d.length.should.equal(1);
+
+      let options = {compare: {'b.x.y': (lObj, rObj) => lObj + '' === rObj}};
+      d = utils.getDiffs(lo, ro, undefined, options);
+      d.length.should.equal(0);
+    }); // end of it
+
 
   }); // end of diffs describe
 

@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "dependencies": {
     "lodash": "4.x",
-    "puppeteer": "0.11.x"
+    "puppeteer": "0.11.x",
+    "ldb-change": "^1.0.0"
   },
   "devDependencies": {
     "mocha": "2.x",
