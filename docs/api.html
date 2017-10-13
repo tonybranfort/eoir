@@ -1,0 +1,2052 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAYcAA0AAAAACjQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAABMAAAABwAAAAca8vGTk9TLzIAAAFMAAAARAAAAFZG1VHVY21hcAAAAZAAAAA+AAABQgAP9AdjdnQgAAAB0AAAAAQAAAAEACICiGdhc3AAAAHUAAAACAAAAAj//wADZ2x5ZgAAAdwAAADRAAABEKyikaNoZWFkAAACsAAAAC0AAAA2AtXoA2hoZWEAAALgAAAAHAAAACQHngNFaG10eAAAAvwAAAAQAAAAEAwAACJsb2NhAAADDAAAAAoAAAAKALIAVG1heHAAAAMYAAAAHwAAACABEAB2bmFtZQAAAzgAAALBAAAFu3I9x/Nwb3N0AAAF/AAAAB0AAAAvaoFvbwAAAAEAAAAAzBdyYwAAAADP2IQvAAAAAM/bz7t4nGNgZGFgnMDAysDB1Ml0hoGBoR9CM75mMGLkYGBgYmBlZsAKAtJcUxgcPsR8iGF2+O/AEMPsznAYKMwIkgMA5REMOXicY2BgYGaAYBkGRgYQsAHyGMF8FgYFIM0ChED+h5j//yEk/3KoSgZGNgYYk4GRCUgwMaACRoZhDwCs7QgGAAAAIgKIAAAAAf//AAJ4nHWMMQrCQBBF/0zWrCCIKUQsTDCL2EXMohYGSSmorScInsRGL2DOYJe0Ntp7BK+gJ1BxF1stZvjz/v8DRghQzEc4kIgKwiAppcA9LtzKLSkdNhKFY3HF4lK69ExKslx7Xa+vPRVS43G98vG1DnkDMIBUgFN0MDXflU8tbaZOUkXUH0+U27RoRpOIyCKjbMCVejwypzJJG4jIwb43rfl6wbwanocrJm9XFYfskuVC5K/TPyczNU7b84CXcbxks1Un6H6tLH9vf2LRnn8Ax7A5WQAAAHicY2BkYGAA4teL1+yI57f5ysDNwgAC529f0kOmWRiYVgEpDgYmEA8AUzEKsQAAAHicY2BkYGB2+O/AEMPCAAJAkpEBFbAAADgKAe0EAAAiAAAAAAQAAAAEAAAAAAAAKgAqACoAiAAAeJxjYGRgYGBhsGFgYgABEMkFhAwM/xn0QAIAD6YBhwB4nI1Ty07cMBS9QwKlQapQW3VXySvEqDCZGbGaHULiIQ1FKgjWMxknMfLEke2A+IJu+wntrt/QbVf9gG75jK577Lg8K1qQPCfnnnt8fX1NRC/pmjrk/zprC+8D7tBy9DHgBXoWfQ44Av8t4Bj4Z8CLtBL9CniJluPXASf0Lm4CXqFX8Q84dOLnMB17N4c7tBo1AS/Qi+hTwBH4rwHHwN8DXqQ30XXAS7QaLwSc0Gn8NuAVWou/gFmnjLrEaEh9GmDdDGgL3B4JsrRPDU2hTOiMSuJUIdKQQayiAth69r6akSSFqIJuA19TrzCIaY8sIoxyrNIrL//pw7A2iMygkX5vDj+G+kuoLdX4GlGK/8Lnlz6/h9MpmoO9rafrz7ILXEHHaAx95s9lsI7AHNMBWEZHULnfAXwG9/ZqdzLI08iuwRloXE8kfhXYAvE23+23DU3t626rbs8/8adv+9DWknsHp3E17oCf+Z48rvEQNZ78paYM38qfk3v/u3l3u3GXN2Dmvmvpf1Srwk3pB/VSsp512bA/GG5i2WJ7wu430yQ5K3nFGiOqgtmSB5pJVSizwaacmUZzZhXLlZTq8qGGFY2YcSkqbth6aW1tRmlaCFs2016m5qn36SbJrqosG4uMV4aP2PHBmB3tjtmgN2izkGQyLWprekbIntJFing32a5rKWCN/SdSoga45EJykyQ7asZvHQ8PTm6cslIpwyeyjbVltNikc2HTR7YKh9LBl9DADC0U/jLcBZDKrMhUBfQBvXRzLtFtjU9eNHKin0x5InTqb8lNpfKv1s1xHzTXRqgKzek/mb7nB8RZTCDhGEX3kK/8Q75AmUM/eLkfA+0Hi908Kx4eNsMgudg5GLdRD7a84npi+YxNr5i5KIbW5izXas7cHXIMAau1OueZhfj+cOcP3P8MNIWLyYOBuxL6DRylJ4cAAAB4nGNgYoAALjDJyIAOWMCiTIxMLDmZedkABtIBygAAAA==) format('woff');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body .markdown-body {
+    padding: 45px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    word-wrap: break-word;
+}
+
+pre {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background-color: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body input {
+  font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.markdown-body a {
+  color: #4078c0;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body .select::-ms-expand {
+  opacity: 0;
+}
+
+.markdown-body .octicon {
+  font: normal normal normal 16px/1 octicons-anchor;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.markdown-body .octicon-link:before {
+  content: '\f05c';
+}
+
+.markdown-body:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body .anchor {
+  display: inline-block;
+  padding-right: 2px;
+  margin-left: -18px;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #000;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h1 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h3 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h4 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h5 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body h6 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: #fff;
+}
+
+.markdown-body code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .pl-c {
+  color: #969896;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: #0086b3;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #795da3;
+}
+
+.markdown-body .pl-s .pl-s1,
+.markdown-body .pl-smi {
+  color: #333;
+}
+
+.markdown-body .pl-ent {
+  color: #63a35c;
+}
+
+.markdown-body .pl-k {
+  color: #a71d5d;
+}
+
+.markdown-body .pl-pds,
+.markdown-body .pl-s,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sra,
+.markdown-body .pl-sr .pl-sre {
+  color: #183691;
+}
+
+.markdown-body .pl-v {
+  color: #ed6a43;
+}
+
+.markdown-body .pl-id {
+  color: #b52a1d;
+}
+
+.markdown-body .pl-ii {
+  background-color: #b52a1d;
+  color: #f8f8f8;
+}
+
+.markdown-body .pl-sr .pl-cce {
+  color: #63a35c;
+  font-weight: bold;
+}
+
+.markdown-body .pl-ml {
+  color: #693a17;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  color: #1d3e81;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mq {
+  color: #008080;
+}
+
+.markdown-body .pl-mi {
+  color: #333;
+  font-style: italic;
+}
+
+.markdown-body .pl-mb {
+  color: #333;
+  font-weight: bold;
+}
+
+.markdown-body .pl-md {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.markdown-body .pl-mi1 {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.markdown-body .pl-mdr {
+  color: #795da3;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mo {
+  color: #1d3e81;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .plan-price-unit {
+  color: #767676;
+  font-weight: normal;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 0.35em 0.25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body .plan-choice {
+  padding: 15px;
+  padding-left: 40px;
+  display: block;
+  border: 1px solid #e0e0e0;
+  position: relative;
+  font-weight: normal;
+  background-color: #fafafa;
+}
+
+.markdown-body .plan-choice.open {
+  background-color: #fff;
+}
+
+.markdown-body .plan-choice.open .plan-choice-seat-breakdown {
+  display: block;
+}
+
+.markdown-body .plan-choice-free {
+  border-radius: 3px 3px 0 0;
+}
+
+.markdown-body .plan-choice-paid {
+  border-radius: 0 0 3px 3px;
+  border-top: 0;
+  margin-bottom: 20px;
+}
+
+.markdown-body .plan-choice-radio {
+  position: absolute;
+  left: 15px;
+  top: 18px;
+}
+
+.markdown-body .plan-choice-exp {
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.markdown-body .plan-choice-seat-breakdown {
+  margin-top: 10px;
+  display: none;
+}
+
+.markdown-body :checked+.radio-label {
+  z-index: 1;
+  position: relative;
+  border-color: #4078c0;
+}
+</style><title>api</title></head><body><article class="markdown-body"><h2>
+<a id="user-content-modules" class="anchor" href="#modules" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Modules</h2>
+<dl>
+<dt><a href="#module_case">case</a></dt>
+<dd>
+<p>module for eoir case</p>
+</dd>
+<dt><a href="#module_case-list">case-list</a></dt>
+<dd>
+<p>module for eoir case list pages</p>
+</dd>
+<dt><a href="#module_home">home</a></dt>
+<dd>
+<p>module for eoir home page</p>
+</dd>
+<dt><a href="#module_login">login</a></dt>
+<dd>
+<p>module for eoir login and basic navigation</p>
+</dd>
+<dt><a href="#module_pfns">pfns</a></dt>
+<dd>
+<p>module for puppeteer add-on functions for eoir</p>
+</dd>
+<dt><a href="#module_shared">shared</a></dt>
+<dd>
+<p>module for shared eoir functions</p>
+</dd>
+</dl>
+<h2>
+<a id="user-content-functions" class="anchor" href="#functions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Functions</h2>
+<dl>
+<dt>
+<a href="#getDiffs">getDiffs(lObj, rObj, path, options)</a> ⇒ <code><a href="#Diff">Array.&lt;Diff&gt;</a></code>
+</dt>
+<dd>
+<p>return an array of paths from an object (<code>lObj</code>) that don't match another object (<code>rObj</code>)</p>
+</dd>
+</dl>
+<h2>
+<a id="user-content-typedefs" class="anchor" href="#typedefs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Typedefs</h2>
+<dl>
+<dt>
+<a href="#Diff">Diff</a> : <code>Object</code>
+</dt>
+<dd></dd>
+<dt>
+<a href="#GetDiffsOptions">GetDiffsOptions</a> : <code>Object</code>
+</dt>
+<dd></dd>
+</dl>
+<p><a name="user-content-module_case"></a></p>
+<h2>
+<a id="user-content-case" class="anchor" href="#case" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>case</h2>
+<p>module for eoir case</p>
+<ul>
+<li>
+<a href="#module_case">case</a>
+<ul>
+<li>
+<a href="#module_case..gotoCase">~gotoCase(page, id)</a> ⇒ <code>Promise.&lt;Response&gt;</code>
+</li>
+<li>
+<a href="#module_case..getCaseData">~getCaseData(page, id)</a> ⇒ <code>Promise.&lt;CaseDetails&gt;</code>
+</li>
+<li>
+<a href="#module_case..toDateUTC18">~toDateUTC18(ds)</a> ⇒ <code>Date</code> | <code>null</code>
+</li>
+<li>
+<a href="#module_case..CaseDetails">~CaseDetails</a> : <code>Object</code>
+</li>
+<li>
+<a href="#module_case..Hearing">~Hearing</a> : <code>Object</code>
+</li>
+<li>
+<a href="#module_case..Proceeding">~Proceeding</a> : <code>Object</code>
+</li>
+<li>
+<a href="#module_case..eoirId">~eoirId</a> : <code>Number</code>
+</li>
+</ul>
+</li>
+</ul>
+<p><a name="user-content-module_case..gotoCase"></a></p>
+<h3>
+<a id="user-content-casegotocasepage-id--promiseresponse" class="anchor" href="#casegotocasepage-id--promiseresponse" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>case~gotoCase(page, id) ⇒ <code>Promise.&lt;Response&gt;</code>
+</h3>
+<p>go to case page give eoir id; assumes logged in and disclaimer accepted</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_case"><code>case</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td><code>Page</code></td>
+</tr>
+<tr>
+<td>id</td>
+<td><code>eoirId</code></td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_case..getCaseData"></a></p>
+<h3>
+<a id="user-content-casegetcasedatapage-id--promisecasedetails" class="anchor" href="#casegetcasedatapage-id--promisecasedetails" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>case~getCaseData(page, id) ⇒ <code>Promise.&lt;CaseDetails&gt;</code>
+</h3>
+<p>scrape the data from the case page</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_case"><code>case</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td><code>Page</code></td>
+</tr>
+<tr>
+<td>id</td>
+<td><code>String</code></td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_case..toDateUTC18"></a></p>
+<h3>
+<a id="user-content-casetodateutc18ds--date--null" class="anchor" href="#casetodateutc18ds--date--null" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>case~toDateUTC18(ds) ⇒ <code>Date</code> | <code>null</code>
+</h3>
+<p>return a Date object setting UTC Hours to 18</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_case"><code>case</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ds</td>
+<td><code>String</code></td>
+<td>The date in mm/dd/yyyy format</td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_case..CaseDetails"></a></p>
+<h3>
+<a id="user-content-casecasedetails--object" class="anchor" href="#casecasedetails--object" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>case~CaseDetails : <code>Object</code>
+</h3>
+<p>case data object</p>
+<p><strong>Kind</strong>: inner typedef of <a href="#module_case"><code>case</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>eoirId</td>
+<td><code>String</code></td>
+<td></td>
+</tr>
+<tr>
+<td>aNbr</td>
+<td><code>String</code></td>
+<td></td>
+</tr>
+<tr>
+<td>aNbrStrip</td>
+<td><code>String</code></td>
+<td>The aNbr stripped of all chars except [0-9]</td>
+</tr>
+<tr>
+<td>chargingDocDate</td>
+<td><code>Object</code></td>
+<td></td>
+</tr>
+<tr>
+<td>chargingDocDate.orig</td>
+<td><code>String</code></td>
+<td>"mm/dd/yyyy"</td>
+</tr>
+<tr>
+<td>chargingDocDate.date</td>
+<td><code>Date</code></td>
+<td>new Date(orig).setUTCHours(18)</td>
+</tr>
+<tr>
+<td>alienName</td>
+<td><code>String</code></td>
+<td></td>
+</tr>
+<tr>
+<td>hearingLocation</td>
+<td><code>String</code></td>
+<td></td>
+</tr>
+<tr>
+<td>caseStatus</td>
+<td><code>String</code></td>
+<td></td>
+</tr>
+<tr>
+<td>clock</td>
+<td><code>String</code></td>
+<td></td>
+</tr>
+<tr>
+<td>hearings</td>
+<td><code>Array.&lt;Hearing&gt;</code></td>
+<td></td>
+</tr>
+<tr>
+<td>proceeding</td>
+<td><code>Array.&lt;Proceeding&gt;</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_case..Hearing"></a></p>
+<h3>
+<a id="user-content-casehearing--object" class="anchor" href="#casehearing--object" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>case~Hearing : <code>Object</code>
+</h3>
+<p>hearing data object</p>
+<p><strong>Kind</strong>: inner typedef of <a href="#module_case"><code>case</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>type</td>
+<td><code>String</code></td>
+<td></td>
+</tr>
+<tr>
+<td>date</td>
+<td><code>Object</code></td>
+<td></td>
+</tr>
+<tr>
+<td>date.origDate</td>
+<td><code>String</code></td>
+<td></td>
+</tr>
+<tr>
+<td>date.date</td>
+<td><code>Date</code></td>
+<td>new Date(orig).setUTCHours(18)</td>
+</tr>
+<tr>
+<td>date.origTime</td>
+<td><code>String</code></td>
+<td></td>
+</tr>
+<tr>
+<td>date.timeFrom</td>
+<td><code>String</code></td>
+<td></td>
+</tr>
+<tr>
+<td>date.timeTo</td>
+<td><code>String</code></td>
+<td></td>
+</tr>
+<tr>
+<td>location</td>
+<td><code>Object</code></td>
+<td></td>
+</tr>
+<tr>
+<td>location.addr1</td>
+<td><code>String</code></td>
+<td></td>
+</tr>
+<tr>
+<td>location.cityStateZip</td>
+<td><code>String</code></td>
+<td></td>
+</tr>
+<tr>
+<td>iJAssigned</td>
+<td><code>String</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_case..Proceeding"></a></p>
+<h3>
+<a id="user-content-caseproceeding--object" class="anchor" href="#caseproceeding--object" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>case~Proceeding : <code>Object</code>
+</h3>
+<p>proceeding data object</p>
+<p><strong>Kind</strong>: inner typedef of <a href="#module_case"><code>case</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sortNbr</td>
+<td><code>String</code></td>
+<td></td>
+</tr>
+<tr>
+<td>decisionDate</td>
+<td><code>Object</code></td>
+<td></td>
+</tr>
+<tr>
+<td>decisionDate.orig</td>
+<td><code>String</code></td>
+<td></td>
+</tr>
+<tr>
+<td>decisionDate.date</td>
+<td><code>Date</code></td>
+<td>new Date(orig).setUTCHours(18)</td>
+</tr>
+<tr>
+<td>iJDecision</td>
+<td><code>String</code></td>
+<td></td>
+</tr>
+<tr>
+<td>hearingLocation</td>
+<td><code>Object</code></td>
+<td></td>
+</tr>
+<tr>
+<td>hearingLocation.addr1</td>
+<td><code>String</code></td>
+<td></td>
+</tr>
+<tr>
+<td>hearingLocation.cityStateZip</td>
+<td><code>String</code></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_case..eoirId"></a></p>
+<h3>
+<a id="user-content-caseeoirid--number" class="anchor" href="#caseeoirid--number" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>case~eoirId : <code>Number</code>
+</h3>
+<p>eoir id - unique id used by eoir to reference a case</p>
+<p><strong>Kind</strong>: inner typedef of <a href="#module_case"><code>case</code></a><br>
+<a name="user-content-module_case-list"></a></p>
+<h2>
+<a id="user-content-case-list" class="anchor" href="#case-list" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>case-list</h2>
+<p>module for eoir case list pages</p>
+<ul>
+<li>
+<a href="#module_case-list">case-list</a>
+<ul>
+<li>
+<a href="#module_case-list..gotoMyCases">~gotoMyCases(page)</a> ⇒ <code>Promise.&lt;Response&gt;</code>
+</li>
+<li><a href="#module_case-list..isOnMyCasesPage">~isOnMyCasesPage()</a></li>
+<li>
+<a href="#module_case-list..getAllEoirIds">~getAllEoirIds(page)</a> ⇒ <code>Promise.&lt;(Array.&lt;eoirId&gt;|Error)&gt;</code>
+<ul>
+<li>
+<a href="#module_case-list..getAllEoirIds..getIdsFromPage">~getIdsFromPage(page)</a> ⇒ <code>Promise.&lt;Array.String&gt;</code>
+</li>
+<li><a href="#module_case-list..getAllEoirIds..getIdFromHref">~getIdFromHref()</a></li>
+</ul>
+</li>
+<li>
+<a href="#module_case-list..getCaseListInfo">~getCaseListInfo(page)</a> ⇒ <code>CaseListInfo</code>
+</li>
+<li>
+<a href="#module_case-list..CaseListInfo">~CaseListInfo</a> : <code>Object</code>
+</li>
+</ul>
+</li>
+</ul>
+<p><a name="user-content-module_case-list..gotoMyCases"></a></p>
+<h3>
+<a id="user-content-case-listgotomycasespage--promiseresponse" class="anchor" href="#case-listgotomycasespage--promiseresponse" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>case-list~gotoMyCases(page) ⇒ <code>Promise.&lt;Response&gt;</code>
+</h3>
+<p>go to the My Cases page on the eoir site; assumes is logged in, returns Error if not. Will accept disclaimer if needed.</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_case-list"><code>case-list</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td><code>Page.&lt;(page|Error)&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_case-list..isOnMyCasesPage"></a></p>
+<h3>
+<a id="user-content-case-listisonmycasespage" class="anchor" href="#case-listisonmycasespage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>case-list~isOnMyCasesPage()</h3>
+<p>detrermine if page is my cases page</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_case-list"><code>case-list</code></a><br>
+<a name="user-content-module_case-list..getAllEoirIds"></a></p>
+<h3>
+<a id="user-content-case-listgetalleoiridspage--promisearrayeoiriderror" class="anchor" href="#case-listgetalleoiridspage--promisearrayeoiriderror" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>case-list~getAllEoirIds(page) ⇒ <code>Promise.&lt;(Array.&lt;eoirId&gt;|Error)&gt;</code>
+</h3>
+<p>get all eoir ids by checking all cases on the eoir portal; assumes is logged in</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_case-list"><code>case-list</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td><code>Page</code></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>
+<a href="#module_case-list..getAllEoirIds">~getAllEoirIds(page)</a> ⇒ <code>Promise.&lt;(Array.&lt;eoirId&gt;|Error)&gt;</code>
+<ul>
+<li>
+<a href="#module_case-list..getAllEoirIds..getIdsFromPage">~getIdsFromPage(page)</a> ⇒ <code>Promise.&lt;Array.String&gt;</code>
+</li>
+<li><a href="#module_case-list..getAllEoirIds..getIdFromHref">~getIdFromHref()</a></li>
+</ul>
+</li>
+</ul>
+<p><a name="user-content-module_case-list..getAllEoirIds..getIdsFromPage"></a></p>
+<h4>
+<a id="user-content-getalleoiridsgetidsfrompagepage--promisearraystring" class="anchor" href="#getalleoiridsgetidsfrompagepage--promisearraystring" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>getAllEoirIds~getIdsFromPage(page) ⇒ <code>Promise.&lt;Array.String&gt;</code>
+</h4>
+<p>get all eoir ids from class list page</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_case-list..getAllEoirIds"><code>getAllEoirIds</code></a><br>
+<strong>Returns</strong>: <code>Promise.&lt;Array.String&gt;</code> - array of ids</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td><code>Page</code></td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_case-list..getAllEoirIds..getIdFromHref"></a></p>
+<h4>
+<a id="user-content-getalleoiridsgetidfromhref" class="anchor" href="#getalleoiridsgetidfromhref" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>getAllEoirIds~getIdFromHref()</h4>
+<p>return eoir id from an href of form '<a href="https://portale.eoir.justice.gov/.../uniquesig0/cases/8013836">https://portale.eoir.justice.gov/.../uniquesig0/cases/8013836</a>'</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_case-list..getAllEoirIds"><code>getAllEoirIds</code></a><br>
+<strong>Pararm</strong>: <code>String</code> href<br>
+<a name="user-content-module_case-list..getCaseListInfo"></a></p>
+<h3>
+<a id="user-content-case-listgetcaselistinfopage--caselistinfo" class="anchor" href="#case-listgetcaselistinfopage--caselistinfo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>case-list~getCaseListInfo(page) ⇒ <code>CaseListInfo</code>
+</h3>
+<p>returns number of cases as indicated on case list page</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_case-list"><code>case-list</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td><code>Page</code></td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_case-list..CaseListInfo"></a></p>
+<h3>
+<a id="user-content-case-listcaselistinfo--object" class="anchor" href="#case-listcaselistinfo--object" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>case-list~CaseListInfo : <code>Object</code>
+</h3>
+<p><strong>Kind</strong>: inner typedef of <a href="#module_case-list"><code>case-list</code></a><br>
+<strong>Properties</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>from</td>
+<td><code>Number</code></td>
+<td>The starting point of case list being viewed</td>
+</tr>
+<tr>
+<td>to</td>
+<td><code>Number</code></td>
+<td>The ending point of case list being viewed</td>
+</tr>
+<tr>
+<td>total</td>
+<td><code>Number</code></td>
+<td>The total number of cases in case list being viewed</td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_home"></a></p>
+<h2>
+<a id="user-content-home" class="anchor" href="#home" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>home</h2>
+<p>module for eoir home page</p>
+<p><a name="user-content-module_home..gotoHome"></a></p>
+<h3>
+<a id="user-content-homegotohomepage--promisepageerrorresponse" class="anchor" href="#homegotohomepage--promisepageerrorresponse" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>home~gotoHome(page) ⇒ <code>Promise.&lt;(Page|Error.&lt;Response&gt;)&gt;</code>
+</h3>
+<p>go to portal home page <a href="https://portale.eoir.justice.gov">https://portale.eoir.justice.gov</a>; wb login page if user is not logged in</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_home"><code>home</code></a><br>
+<strong>Returns</strong>: <code>Promise.&lt;(Page|Error.&lt;Response&gt;)&gt;</code> - returns Response if status !== 200</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td><code>Page</code></td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_login"></a></p>
+<h2>
+<a id="user-content-login" class="anchor" href="#login" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>login</h2>
+<p>module for eoir login and basic navigation</p>
+<ul>
+<li>
+<a href="#module_login">login</a>
+<ul>
+<li>
+<a href="#module_login..login">~login(page, loginCreds)</a> ⇒ <code>Promise.&lt;(Page|Error)&gt;</code>
+</li>
+<li>
+<a href="#module_login..isLoggedIn">~isLoggedIn(page)</a> ⇒ <code>Promise.&lt;(Boolean|Error)&gt;</code>
+</li>
+<li><a href="#module_login..logoff">~logoff()</a></li>
+<li>
+<a href="#module_login..LoginCreds">~LoginCreds</a> : <code>Object</code>
+</li>
+</ul>
+</li>
+</ul>
+<p><a name="user-content-module_login..login"></a></p>
+<h3>
+<a id="user-content-loginloginpage-logincreds--promisepageerror" class="anchor" href="#loginloginpage-logincreds--promisepageerror" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>login~login(page, loginCreds) ⇒ <code>Promise.&lt;(Page|Error)&gt;</code>
+</h3>
+<p>log into eoir site; assumes user is logged off</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_login"><code>login</code></a><br>
+<strong>Returns</strong>: <code>Promise.&lt;(Page|Error)&gt;</code> - Throws error if login not successful</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td><code>Page</code></td>
+</tr>
+<tr>
+<td>loginCreds</td>
+<td><code>LoginCreds</code></td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_login..isLoggedIn"></a></p>
+<h3>
+<a id="user-content-loginisloggedinpage--promisebooleanerror" class="anchor" href="#loginisloggedinpage--promisebooleanerror" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>login~isLoggedIn(page) ⇒ <code>Promise.&lt;(Boolean|Error)&gt;</code>
+</h3>
+<p>returns true (Promise) if there is a user logged in (no check on which user)</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_login"><code>login</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td><code>Page</code></td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_login..logoff"></a></p>
+<h3>
+<a id="user-content-loginlogoff" class="anchor" href="#loginlogoff" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>login~logoff()</h3>
+<p>log user off eoir portal</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_login"><code>login</code></a><br>
+<a name="user-content-module_login..LoginCreds"></a></p>
+<h3>
+<a id="user-content-loginlogincreds--object" class="anchor" href="#loginlogincreds--object" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>login~LoginCreds : <code>Object</code>
+</h3>
+<p>eoir login credentials (id, pw) object</p>
+<p><strong>Kind</strong>: inner typedef of <a href="#module_login"><code>login</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td><code>String</code></td>
+</tr>
+<tr>
+<td>pw</td>
+<td><code>String</code></td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_pfns"></a></p>
+<h2>
+<a id="user-content-pfns" class="anchor" href="#pfns" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pfns</h2>
+<p>module for puppeteer add-on functions for eoir</p>
+<ul>
+<li>
+<a href="#module_pfns">pfns</a>
+<ul>
+<li><a href="#module_pfns..getNewBrowser">~getNewBrowser()</a></li>
+<li>
+<a href="#module_pfns..getNewBrowserPage">~getNewBrowserPage(options)</a> ⇒ <code>Promise.&lt;Page&gt;</code>
+</li>
+<li>
+<a href="#module_pfns..checkValidResponse">~checkValidResponse(response)</a> ⇒ <code>Response</code> | <code>Error.&lt;response&gt;</code>
+</li>
+<li>
+<a href="#module_pfns..enterValue">~enterValue(page, elP, value)</a> ⇒ <code>Promise.&lt;(Page|Error.&lt;Response&gt;)&gt;</code>
+</li>
+<li>
+<a href="#module_pfns..getFrame">~getFrame(page, frameName)</a> ⇒ <code>Frame</code> | <code>foundFrame</code>
+</li>
+<li>
+<a href="#module_pfns..gotoFrame">~gotoFrame(page, frames;, p)</a> ⇒</li>
+<li>
+<a href="#module_pfns..getEl">~getEl(page, selectors)</a> ⇒ <code>Promise.&lt;ElementHandler&gt;</code>
+</li>
+<li>
+<a href="#module_pfns..clickAndWait">~clickAndWait(page, selector)</a> ⇒ <code>Promise</code>
+</li>
+<li>
+<a href="#module_pfns..waitForIdle">~waitForIdle(page)</a> ⇒ <code>Promise</code>
+</li>
+<li>
+<a href="#module_pfns..select">~select(page, selector, ...values)</a> ⇒ <code>Promise</code>
+</li>
+<li><a href="#module_pfns..isChecked">~isChecked()</a></li>
+<li>
+<a href="#module_pfns..scrapeIt">~scrapeIt(page, scrapes, ro)</a> ⇒ <code>Promise.&lt;Object&gt;</code>
+</li>
+<li>
+<a href="#module_pfns..scrapeIt%24">~scrapeIt$(page, scrape, ro)</a> ⇒ <code>Promise.&lt;(Object|Error)&gt;</code>
+</li>
+<li>
+<a href="#module_pfns..scrapeIt%24%24">~scrapeIt$$(page, scrape, ro)</a> ⇒ <code>Promise.&lt;(Object|Error)&gt;</code>
+</li>
+<li>
+<a href="#module_pfns..Page">~Page</a> : <code>Class</code>
+</li>
+<li>
+<a href="#module_pfns..Scrapes">~Scrapes</a> : <code>Array.&lt;Scrape&gt;</code>
+</li>
+<li>
+<a href="#module_pfns..Scrape">~Scrape</a> : <code>Object</code>
+</li>
+</ul>
+</li>
+</ul>
+<p><a name="user-content-module_pfns..getNewBrowser"></a></p>
+<h3>
+<a id="user-content-pfnsgetnewbrowser" class="anchor" href="#pfnsgetnewbrowser" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pfns~getNewBrowser()</h3>
+<p>= puppeteer.launch; returns browser instance</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_pfns"><code>pfns</code></a><br>
+<strong>See</strong>: <a href="https://github.com/GoogleChrome/puppeteer/blob/v0.11.0/docs/api.md#puppeteerlaunchoptions">https://github.com/GoogleChrome/puppeteer/blob/v0.11.0/docs/api.md#puppeteerlaunchoptions</a><br>
+<a name="user-content-module_pfns..getNewBrowserPage"></a></p>
+<h3>
+<a id="user-content-pfnsgetnewbrowserpageoptions--promisepage" class="anchor" href="#pfnsgetnewbrowserpageoptions--promisepage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pfns~getNewBrowserPage(options) ⇒ <code>Promise.&lt;Page&gt;</code>
+</h3>
+<p>return a new browser page</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_pfns"><code>pfns</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>options</td>
+<td><code>Object</code></td>
+<td>options object as defined by <a href="https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#puppeteerlaunchoptions">https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#puppeteerlaunchoptions</a>
+</td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_pfns..checkValidResponse"></a></p>
+<h3>
+<a id="user-content-pfnscheckvalidresponseresponse--response--errorresponse" class="anchor" href="#pfnscheckvalidresponseresponse--response--errorresponse" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pfns~checkValidResponse(response) ⇒ <code>Response</code> | <code>Error.&lt;response&gt;</code>
+</h3>
+<p>check valid response; throw error with response if note</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_pfns"><code>pfns</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>response</td>
+<td><code>Response</code></td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_pfns..enterValue"></a></p>
+<h3>
+<a id="user-content-pfnsentervaluepage-elp-value--promisepageerrorresponse" class="anchor" href="#pfnsentervaluepage-elp-value--promisepageerrorresponse" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pfns~enterValue(page, elP, value) ⇒ <code>Promise.&lt;(Page|Error.&lt;Response&gt;)&gt;</code>
+</h3>
+<p>enter a value in an input element</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_pfns"><code>pfns</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td><code>Page</code></td>
+<td></td>
+</tr>
+<tr>
+<td>elP</td>
+<td><code>Promise</code></td>
+<td>Promise that resolves to an element handler</td>
+</tr>
+<tr>
+<td>value</td>
+<td>
+<code>String</code> | <code>Number</code>
+</td>
+<td>value to enter</td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_pfns..getFrame"></a></p>
+<h3>
+<a id="user-content-pfnsgetframepage-framename--frame--foundframe" class="anchor" href="#pfnsgetframepage-framename--frame--foundframe" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pfns~getFrame(page, frameName) ⇒ <code>Frame</code> | <code>foundFrame</code>
+</h3>
+<p>goes through all frames in page and returns frame with name requested</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_pfns"><code>pfns</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td><code>page</code></td>
+</tr>
+<tr>
+<td>frameName</td>
+<td><code>String</code></td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_pfns..gotoFrame"></a></p>
+<h3>
+<a id="user-content-pfnsgotoframepage-frames-p-" class="anchor" href="#pfnsgotoframepage-frames-p-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pfns~gotoFrame(page, frames;, p) ⇒</h3>
+<p>get url of frame and goto that url</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_pfns"><code>pfns</code></a><br>
+<strong>Returns</strong>: </p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td><code>page</code></td>
+<td></td>
+</tr>
+<tr>
+<td>frames;</td>
+<td>
+<code>String</code> | <code>Array.&lt;String&gt;</code>
+</td>
+<td>frame name or array of frame names</td>
+</tr>
+<tr>
+<td>p</td>
+<td>
+<code>Promise</code> | <code>undefined</code>
+</td>
+<td>a promise to wait for</td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_pfns..getEl"></a></p>
+<h3>
+<a id="user-content-pfnsgetelpage-selectors--promiseelementhandler" class="anchor" href="#pfnsgetelpage-selectors--promiseelementhandler" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pfns~getEl(page, selectors) ⇒ <code>Promise.&lt;ElementHandler&gt;</code>
+</h3>
+<p>retrieve an element handler given either a selector string or a selector obj</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_pfns"><code>pfns</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td><code>Page</code></td>
+<td></td>
+</tr>
+<tr>
+<td>selectors</td>
+<td>
+<code>String</code> | <code>Array.&lt;String&gt;</code>
+</td>
+<td>if array, then in order of frame name with last being elementselector string</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong></p>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> returns Promise resolving to element #myelid in main_frame in main_iframe</span>
+ <span class="pl-en">getEl</span>(page, [<span class="pl-s"><span class="pl-pds">'</span>main_frame<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>main_iframe<span class="pl-pds">'</span></span>, <span class="pl-s"><span class="pl-pds">'</span>#myelid<span class="pl-pds">'</span></span>]) </pre></div>
+<p><a name="user-content-module_pfns..clickAndWait"></a></p>
+<h3>
+<a id="user-content-pfnsclickandwaitpage-selector--promise" class="anchor" href="#pfnsclickandwaitpage-selector--promise" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pfns~clickAndWait(page, selector) ⇒ <code>Promise</code>
+</h3>
+<p>runs puppeteer page.click and then waits for network idle</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_pfns"><code>pfns</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td><code>Page</code></td>
+</tr>
+<tr>
+<td>selector</td>
+<td><code>String</code></td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_pfns..waitForIdle"></a></p>
+<h3>
+<a id="user-content-pfnswaitforidlepage--promise" class="anchor" href="#pfnswaitforidlepage--promise" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pfns~waitForIdle(page) ⇒ <code>Promise</code>
+</h3>
+<p>wait for page to network idle</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_pfns"><code>pfns</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td><code>Page</code></td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_pfns..select"></a></p>
+<h3>
+<a id="user-content-pfnsselectpage-selector-values--promise" class="anchor" href="#pfnsselectpage-selector-values--promise" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pfns~select(page, selector, ...values) ⇒ <code>Promise</code>
+</h3>
+<p>select an item in an html select dropdown</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_pfns"><code>pfns</code></a><br>
+<strong>See</strong>: <a href="https://stackoverflow.com/questions/45864516/how-to-select-an-option-from-dropdown-select">https://stackoverflow.com/questions/45864516/how-to-select-an-option-from-dropdown-select</a><br>
+<strong>Todo</strong></p>
+<ul>
+<li>[ ] Replace with page.select when Puppeteer v.12 is released</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td><code>Page</code></td>
+</tr>
+<tr>
+<td>selector</td>
+<td><code>String</code></td>
+</tr>
+<tr>
+<td>...values</td>
+<td><code>Array.&lt;string&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_pfns..isChecked"></a></p>
+<h3>
+<a id="user-content-pfnsischecked" class="anchor" href="#pfnsischecked" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pfns~isChecked()</h3>
+<p>return if the input radio is selected</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_pfns"><code>pfns</code></a><br>
+<strong>Param{page}</strong>: page<br>
+<strong>Param{string}</strong>: selector - input selector (without :checked)<br>
+<strong>Returns{promise&lt;boolean&gt;}</strong>:<br>
+<a name="user-content-module_pfns..scrapeIt"></a></p>
+<h3>
+<a id="user-content-pfnsscrapeitpage-scrapes-ro--promiseobject" class="anchor" href="#pfnsscrapeitpage-scrapes-ro--promiseobject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pfns~scrapeIt(page, scrapes, ro) ⇒ <code>Promise.&lt;Object&gt;</code>
+</h3>
+<p>scrape data from page into object using Scrape</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_pfns"><code>pfns</code></a><br>
+<strong>Returns</strong>: <code>Promise.&lt;Object&gt;</code> - returns updated ro Object with props filled in with values</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td><code>Page</code></td>
+<td></td>
+</tr>
+<tr>
+<td>scrapes</td>
+<td><code>Scrapes</code></td>
+<td></td>
+</tr>
+<tr>
+<td>ro</td>
+<td>
+<code>Object</code> | <code>undefined</code>
+</td>
+<td>The object to be updated and returned</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong></p>
+<div class="highlight highlight-source-js"><pre>Non array path
+ <span class="pl-c"><span class="pl-c">//</span> returns Promise resolving to {gottaName: "Johnny"}</span>
+ <span class="pl-en">scrapeIt</span>(page, [{selector<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>input#name<span class="pl-pds">'</span></span>, path<span class="pl-k">:</span><span class="pl-s"><span class="pl-pds">'</span>date<span class="pl-pds">'</span></span>, <span class="pl-en">getValue</span><span class="pl-k">:</span> (<span class="pl-smi">elH</span>) <span class="pl-k">=&gt;</span> <span class="pl-smi">elH</span>.<span class="pl-c1">value</span>}])</pre></div>
+<p><strong>Example</strong></p>
+<div class="highlight highlight-source-js"><pre>With transformValue
+ <span class="pl-c"><span class="pl-c">//</span> returns Promise resolving to {date: 1975-05-01T05:00:00.000Z}</span>
+ <span class="pl-en">scrapeIt</span>(page, [
+  {selector<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>div#dateStr<span class="pl-pds">'</span></span>, 
+    path<span class="pl-k">:</span><span class="pl-s"><span class="pl-pds">'</span>dateOf<span class="pl-pds">'</span></span>, 
+    <span class="pl-en">getValue</span><span class="pl-k">:</span> (<span class="pl-smi">elH</span>) <span class="pl-k">=&gt;</span> <span class="pl-smi">elH</span>.<span class="pl-c1">value</span>
+    <span class="pl-en">transformValue</span><span class="pl-k">:</span> (<span class="pl-smi">val</span>) <span class="pl-k">=&gt;</span> <span class="pl-k">new</span> <span class="pl-en">Date</span>(val)}])</pre></div>
+<p><strong>Example</strong></p>
+<div class="highlight highlight-source-js"><pre><span class="pl-c1">Array</span> path
+ <span class="pl-c"><span class="pl-c">//</span> returns Promise resolving to {names:[{gottaName: "Johnny"}, {gottaName: "Jarvia"}]}</span>
+ <span class="pl-en">scrapeIt</span>(page, [{selector<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>input#names tr td<span class="pl-pds">'</span></span>, path<span class="pl-k">:</span><span class="pl-s"><span class="pl-pds">'</span>names[].gottaName<span class="pl-pds">'</span></span>, <span class="pl-en">getValue</span><span class="pl-k">:</span> (<span class="pl-smi">elH</span>) <span class="pl-k">=&gt;</span> <span class="pl-smi">elH</span>.<span class="pl-smi">innerHTML</span>}])
+ </pre></div>
+<p><a name="user-content-module_pfns..scrapeIt%24"></a></p>
+<h3>
+<a id="user-content-pfnsscrapeitpage-scrape-ro--promiseobjecterror" class="anchor" href="#pfnsscrapeitpage-scrape-ro--promiseobjecterror" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pfns~scrapeIt$(page, scrape, ro) ⇒ <code>Promise.&lt;(Object|Error)&gt;</code>
+</h3>
+<p>scrape one element and assign to object following</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_pfns"><code>pfns</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td><code>Page</code></td>
+</tr>
+<tr>
+<td>scrape</td>
+<td><code>Scrape</code></td>
+</tr>
+<tr>
+<td>ro</td>
+<td>
+<code>Object</code> | <code>undefined</code>
+</td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_pfns..scrapeIt%24%24"></a></p>
+<h3>
+<a id="user-content-pfnsscrapeitpage-scrape-ro--promiseobjecterror-1" class="anchor" href="#pfnsscrapeitpage-scrape-ro--promiseobjecterror-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pfns~scrapeIt$$(page, scrape, ro) ⇒ <code>Promise.&lt;(Object|Error)&gt;</code>
+</h3>
+<p>scrape multiple ($$) elements and assign to object in array</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_pfns"><code>pfns</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td><code>Page</code></td>
+</tr>
+<tr>
+<td>scrape</td>
+<td><code>Scrape</code></td>
+</tr>
+<tr>
+<td>ro</td>
+<td>
+<code>Object</code> | <code>undefined</code>
+</td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_pfns..Page"></a></p>
+<h3>
+<a id="user-content-pfnspage--class" class="anchor" href="#pfnspage--class" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pfns~Page : <code>Class</code>
+</h3>
+<p>Page class as defined by puppeteer
+<a href="https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#class-page">https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#class-page</a></p>
+<p><strong>Kind</strong>: inner typedef of <a href="#module_pfns"><code>pfns</code></a><br>
+<a name="user-content-module_pfns..Scrapes"></a></p>
+<h3>
+<a id="user-content-pfnsscrapes--arrayscrape" class="anchor" href="#pfnsscrapes--arrayscrape" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pfns~Scrapes : <code>Array.&lt;Scrape&gt;</code>
+</h3>
+<p><strong>Kind</strong>: inner typedef of <a href="#module_pfns"><code>pfns</code></a><br>
+<a name="user-content-module_pfns..Scrape"></a></p>
+<h3>
+<a id="user-content-pfnsscrape--object" class="anchor" href="#pfnsscrape--object" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>pfns~Scrape : <code>Object</code>
+</h3>
+<p><strong>Kind</strong>: inner typedef of <a href="#module_pfns"><code>pfns</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>selector</td>
+<td><code>Selector</code></td>
+<td></td>
+</tr>
+<tr>
+<td>path</td>
+<td><code>String</code></td>
+<td>Path in dot notation. '[]' in path will be replaced with [idx]</td>
+</tr>
+<tr>
+<td>getValue</td>
+<td><code>function</code></td>
+<td>Function that takes an ElementHandle found at selector and resolves to value to be assigned to path</td>
+</tr>
+<tr>
+<td>transformValue</td>
+<td>
+<code>function</code> | <code>undefined</code>
+</td>
+<td>Function to process result of getValue</td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_shared"></a></p>
+<h2>
+<a id="user-content-shared" class="anchor" href="#shared" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>shared</h2>
+<p>module for shared eoir functions</p>
+<ul>
+<li>
+<a href="#module_shared">shared</a>
+<ul>
+<li>
+<a href="#module_shared..getBaseHrefSig">~getBaseHrefSig(href)</a> ⇒ <code>String</code>
+</li>
+<li>
+<a href="#module_shared..getBaseSigUrl">~getBaseSigUrl(page)</a> ⇒ <code>String</code>
+</li>
+<li>
+<a href="#module_shared..gotoSigPage">~gotoSigPage(page, href)</a> ⇒ <code>Promise</code>
+</li>
+</ul>
+</li>
+</ul>
+<p><a name="user-content-module_shared..getBaseHrefSig"></a></p>
+<h3>
+<a id="user-content-sharedgetbasehrefsighref--string" class="anchor" href="#sharedgetbasehrefsighref--string" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>shared~getBaseHrefSig(href) ⇒ <code>String</code>
+</h3>
+<p>returns eoir href through unique sig
+<a href="https://portale.eoir.justice.gov/uniquesig340d161e9d8c4d852c2fb0c489ab4948/uniquesig0/">https://portale.eoir.justice.gov/uniquesig340d161e9d8c4d852c2fb0c489ab4948/uniquesig0/</a></p>
+<p><strong>Kind</strong>: inner method of <a href="#module_shared"><code>shared</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>href</td>
+<td><code>String</code></td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-module_shared..getBaseSigUrl"></a></p>
+<h3>
+<a id="user-content-sharedgetbasesigurlpage--string" class="anchor" href="#sharedgetbasesigurlpage--string" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>shared~getBaseSigUrl(page) ⇒ <code>String</code>
+</h3>
+<p>returns eoir base url through unique sig using the current page url; s/b logged in and accepted disclaimer
+<a href="https://portale.eoir.justice.gov/uniquesig340d161e9d8c4d852c2fb0c489ab4948/uniquesig0/">https://portale.eoir.justice.gov/uniquesig340d161e9d8c4d852c2fb0c489ab4948/uniquesig0/</a></p>
+<p><strong>Kind</strong>: inner method of <a href="#module_shared"><code>shared</code></a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td><code>Page</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong></p>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> returns 'https://portale.eoir.justice.gov/uniquesig340d161e9d8c4d852c2fb0c489ab4948/uniquesig0'</span>
+  <span class="pl-en">getBaseSigUrl</span>(page);</pre></div>
+<p><a name="user-content-module_shared..gotoSigPage"></a></p>
+<h3>
+<a id="user-content-sharedgotosigpagepage-href--promise" class="anchor" href="#sharedgotosigpagepage-href--promise" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>shared~gotoSigPage(page, href) ⇒ <code>Promise</code>
+</h3>
+<p>page.goto(getBaseSigUrl + href)</p>
+<p><strong>Kind</strong>: inner method of <a href="#module_shared"><code>shared</code></a><br>
+<strong>Returns</strong>: <code>Promise</code> - resolves when networkidle</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>page</td>
+<td><code>Page</code></td>
+<td></td>
+</tr>
+<tr>
+<td>href</td>
+<td><code>String</code></td>
+<td>Such as '/cases' or '/cases/7153245'</td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-getDiffs"></a></p>
+<h2>
+<a id="user-content-getdiffslobj-robj-path-options--arraydiff" class="anchor" href="#getdiffslobj-robj-path-options--arraydiff" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>getDiffs(lObj, rObj, path, options) ⇒ <a href="#Diff"><code>Array.&lt;Diff&gt;</code></a>
+</h2>
+<p>return an array of paths from an object (<code>lObj</code>) that don't match another object (<code>rObj</code>)</p>
+<p><strong>Kind</strong>: global function</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>lObj</td>
+<td><code>Any</code></td>
+<td></td>
+</tr>
+<tr>
+<td>rObj</td>
+<td><code>Any</code></td>
+<td></td>
+</tr>
+<tr>
+<td>path</td>
+<td>
+<code>String</code> | <code>undefined</code>
+</td>
+<td>Path to object attribute in dot notation</td>
+</tr>
+<tr>
+<td>options</td>
+<td>
+<a href="#GetDiffsOptions"><code>GetDiffsOptions</code></a> | <code>undefined</code>
+</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Example</strong></p>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> returns [{path: 'a', lObj: 3, rObj: undefined}]</span>
+ <span class="pl-en">getDiffs</span>({a<span class="pl-k">:</span> <span class="pl-c1">5</span>}, {c<span class="pl-k">:</span> <span class="pl-c1">22</span>})</pre></div>
+<p><strong>Example</strong></p>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> returns [{path: 'a.b', lObj: 3, rObj: 5}, ]</span>
+  <span class="pl-en">getDiffs</span>({a<span class="pl-k">:</span> {b<span class="pl-k">:</span> <span class="pl-c1">3</span>}}, {a<span class="pl-k">:</span> {b<span class="pl-k">:</span> <span class="pl-c1">5</span>}})</pre></div>
+<p><strong>Example</strong></p>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> returns [{path: 'a[0].b.c', lObj: 5, rObj: 7}, ]</span>
+  <span class="pl-en">getDiffs</span>({a<span class="pl-k">:</span> [{b<span class="pl-k">:</span> {c<span class="pl-k">:</span> <span class="pl-c1">5</span>}}]}, {a<span class="pl-k">:</span> [{b<span class="pl-k">:</span> {c<span class="pl-k">:</span> <span class="pl-c1">7</span>}}]})</pre></div>
+<p><strong>Example</strong></p>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> returns [{path: 'a.b', lObj: {c: 8}, rObj: {c: 7}}, ]</span>
+  <span class="pl-en">getDiffs</span>({a<span class="pl-k">:</span> {b<span class="pl-k">:</span> {c<span class="pl-k">:</span> <span class="pl-c1">8</span>}}}, {a<span class="pl-k">:</span> {b<span class="pl-k">:</span> {c<span class="pl-k">:</span> <span class="pl-c1">7</span>}}}, <span class="pl-c1">undefined</span>, {stopAt<span class="pl-k">:</span> {<span class="pl-s"><span class="pl-pds">"</span>a.b<span class="pl-pds">"</span></span><span class="pl-k">:</span> <span class="pl-c1">true</span>}})</pre></div>
+<p><a name="user-content-Diff"></a></p>
+<h2>
+<a id="user-content-diff--object" class="anchor" href="#diff--object" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Diff : <code>Object</code>
+</h2>
+<p><strong>Kind</strong>: global typedef</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>path</td>
+<td><code>String</code></td>
+<td>The dot notation path to the property with diff</td>
+</tr>
+<tr>
+<td>lObj</td>
+<td><code>Any</code></td>
+<td>The object or value of the left object compared</td>
+</tr>
+<tr>
+<td>rObj</td>
+<td><code>Any</code></td>
+<td>The object or value of the right object compared</td>
+</tr>
+</tbody>
+</table>
+<p><a name="user-content-GetDiffsOptions"></a></p>
+<h2>
+<a id="user-content-getdiffsoptions--object" class="anchor" href="#getdiffsoptions--object" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GetDiffsOptions : <code>Object</code>
+</h2>
+<p><strong>Kind</strong>: global typedef</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>stopAt</td>
+<td>
+<code>Object</code> | <code>undefined</code>
+</td>
+<td>Object with paths as keys where those paths will not be descened only to determine if there is a difference</td>
+</tr>
+</tbody>
+</table>
+</article></body></html>

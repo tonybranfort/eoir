@@ -1,0 +1,26 @@
+{
+  "name": "eoir",
+  "version": "1.0.0",
+  "description": "Scrape data from EOIR site",
+  "main": "lib/index.js",
+  "dependencies": {
+    "lodash": "4.x",
+    "puppeteer": "0.11.x"
+  },
+  "devDependencies": {
+    "mocha": "2.x",
+    "should": "8.2.x"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonybranfort/eoir"
+  },
+  "keywords": [],
+  "author": "Tony Branfort",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tonybranfort/eoir/issues"
+  },
+  "homepage": "https://github.com/tonybranfort/eoir#readme"
+}

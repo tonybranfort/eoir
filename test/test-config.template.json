@@ -1,0 +1,58 @@
+{
+  "loginCreds": {
+      "id": "yourid",
+      "pw": "yourpw"
+  },
+  "testCases": [
+    {
+      "eoirId": "0000000",
+      "aNbr": "111-111-111",
+      "aNbrStrip": "111111111",
+      "chargingDocDate": {
+        "orig": "06/27/2016",
+        "date": "2016-06-27T18:00:00.000Z"
+      },
+      "alienName": "NAME, NAME",
+      "hearingLocation": "IMMIGRATION COURT\n1 FEDERAL DRIVE, SUITE 1850\nFORT SNELLING, MN 55111\n(612) 725-3765\n        ",
+      "caseStatus": "Pending",
+      "clock": "No Clock",
+      "hearings": [
+        {"type": "Individual",
+         "date": {
+            "origDate": "03/23/2020",
+            "date": "2020-03-23T18:00:00.000Z",
+            "origTime": "(01:00 PM - 05:00 PM)",
+            "timeFrom": "01:00 PM",
+            "timeTo": "05:00 PM"
+          },
+         "location": {
+          "addr1": "1 FEDERAL DRIVE, SUITE 1850",
+          "cityStateZip": "FORT SNELLING, MN 55111"},
+          "iJAssigned": "SUSAN E. CASTRO"
+        }
+      ],
+      "proceedings": [
+        {"sortNbr": "2",
+         "decisionDate": {
+            "orig": "N/A",
+            "date": null
+          },
+         "iJDecision": "The case is pending.",
+         "hearingLocation": {
+          "addr1": "1 FEDERAL DRIVE, SUITE 1850",
+          "cityStateZip": "FORT SNELLING, MN 55111"}
+        },
+        {"sortNbr": "1",
+         "decisionDate": {
+            "orig": "09/21/2016",
+            "date": "2016-09-21T18:00:00.000Z"
+          },
+         "iJDecision": "The immigration judge ordered a change of venue.",
+         "hearingLocation": {
+          "addr1": "566 VETERAN DRIVE., SUITE 101",
+          "cityStateZip": "PEARSALL, TX 78061"}
+        }
+      ]
+    }
+  ]
+}
