@@ -1,6 +1,6 @@
 {
   "name": "eoir",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scrape data from EOIR site",
   "main": "lib/index.js",
   "dependencies": {
